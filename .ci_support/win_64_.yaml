@@ -1,0 +1,15 @@
+c_compiler:
+- m2w64-toolchain
+channel_sources:
+- conda-forge/label/microed-data_dev,conda-forge
+channel_targets:
+- conda-forge microed-tools_dev
+cxx_compiler:
+- m2w64-toolchain
+libiconv:
+- '1.16'
+pin_run_as_build:
+  libiconv:
+    max_pin: x.x
+target_platform:
+- win-64
