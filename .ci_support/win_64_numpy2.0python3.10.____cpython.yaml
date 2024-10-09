@@ -1,3 +1,5 @@
+ace:
+- 8.0.1
 c_compiler:
 - vs2019
 c_stdlib:
@@ -17,7 +19,7 @@ libtiff:
 libxml2:
 - '2'
 nlopt:
-- '2.7'
+- '2.8'
 numpy:
 - '2.0'
 pin_run_as_build:

@@ -1,3 +1,5 @@
+ace:
+- 8.0.1
 c_compiler:
 - gcc
 c_compiler_version:
@@ -25,7 +27,7 @@ libtiff:
 libxml2:
 - '2'
 nlopt:
-- '2.7'
+- '2.8'
 numpy:
 - '2.0'
 pin_run_as_build:
@@ -33,7 +35,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.10.* *_cpython
+- 3.11.* *_cpython
 python_impl:
 - cpython
 target_platform:
