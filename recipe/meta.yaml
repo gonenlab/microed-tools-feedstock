@@ -24,7 +24,7 @@ build:
   ignore_run_exports_from:
     - {{ compiler('cxx') }}  # [win]
     - {{ stdlib('c') }}      # [win]
-  number: 5
+  number: 6
   script_env:
     - USER                   # [unix]
     - USERNAME               # [win]
