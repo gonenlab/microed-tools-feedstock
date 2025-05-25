@@ -17,9 +17,9 @@ libiconv:
 libtiff:
 - '4.7'
 libxml2:
-- '2'
+- '2.13'
 nlopt:
-- '2.9'
+- '2.10'
 numpy:
 - '2.0'
 pin_run_as_build:
